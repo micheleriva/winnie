@@ -110,6 +110,9 @@ fabric.properties
 
 # Sonarlint plugin
 .idea/sonarlint
+.idea
+
+winnie
 
 ### OSX ###
 # General
