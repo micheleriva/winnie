@@ -3,7 +3,6 @@
 
 #include <iostream>
 #include "opencv2/opencv.hpp"
-#include "colors.h"
 
 using namespace cv;
 using namespace cv::ml;
@@ -14,7 +13,7 @@ inline void detectHumans() {
     VideoCapture cap(0);
 
     if(!cap.isOpened()) {
-        cout << "{\"error\": \"Unable to read from WebCam\"}" << endl;
+        cout << "{Unable to read from WebCam" << endl;
     }
 
     cap.set(CV_CAP_PROP_FRAME_WIDTH,  640);

@@ -1,5 +1,6 @@
 #include "src/video-capture.h"
 
-void main() {
+int main() {
     detectHumans();
+    return 0;
 }
